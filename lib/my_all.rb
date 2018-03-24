@@ -8,7 +8,7 @@ def my_all?(collection)
       i+=1
     end
     
-    if new_arr.include>(false)
+    if new_arr.include?(false)
       false
     else 
       true
