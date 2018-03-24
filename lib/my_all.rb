@@ -1,6 +1,7 @@
 require 'pry'
 
 def my_all?(collection)
+  my_alls = true
   i = 0
   new_arr = []
     while i < collection.length
